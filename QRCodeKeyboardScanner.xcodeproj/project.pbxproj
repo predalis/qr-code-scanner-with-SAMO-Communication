@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29ACAB26AE183F109830A264 /* ScannedCodeStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A79E656BB7C8A73BBB97B0 /* ScannedCodeStoreTests.swift */; };
+		2CF08DA496DA26A57EE45699 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ADF766809B1D0579214C9E5 /* AVFoundation.framework */; };
+		47A885D9D25D721F16CD6B2F /* ScannedCodeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC081BFE2A89E3AF3AD817 /* ScannedCodeStore.swift */; };
+		5C7793BA875FAF7F96DE4E24 /* ScannedCodeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC081BFE2A89E3AF3AD817 /* ScannedCodeStore.swift */; };
+		6004712518E8916654CB774C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B94C564E6B8DEA5EA870E6 /* Foundation.framework */; };
+		9238C9528C514D1F7FE5A82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B94C564E6B8DEA5EA870E6 /* Foundation.framework */; };
+		9E905A587AF3045A883AA3C2 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C4B9CF6B489562E8822AD /* ScannerView.swift */; };
+		AF7FD9BFBA9A2897DA6772D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B94C564E6B8DEA5EA870E6 /* Foundation.framework */; };
+		DD7F8960ABA6BEBA0E8968BC /* QRCodeKeyboardKeyboardExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ECE6EC9DB998316D6A2963DC /* QRCodeKeyboardKeyboardExtension.appex */; };
+		F67B6DA8B952F8ECD0A6FBB6 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BBE3075526F223CA3E803A /* KeyboardViewController.swift */; };
+		FC079385BDF69DCD0E6178D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4B8C96C535733DDAEAD5C /* ContentView.swift */; };
+		FD1952BA838B89FD39FACDDE /* QRKeyboardScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6ED02A04F9A11A6EA404D9 /* QRKeyboardScannerApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09C5059BD5F7315D3FADE579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEDB01BCF50CD98CA9E99D76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7473C346B79FA6B10DF56F;
+			remoteInfo = QRCodeKeyboardScanner;
+		};
+		1F036C73288CF9808A90B2B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEDB01BCF50CD98CA9E99D76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F359420A7682F37E5546D0C;
+			remoteInfo = QRCodeKeyboardKeyboardExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42C2D8B0C01E47846E4F886D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD7F8960ABA6BEBA0E8968BC /* QRCodeKeyboardKeyboardExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EEE370EA26ED6FFB2E90B9A /* KeyboardExtension.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = KeyboardExtension.entitlements; sourceTree = "<group>"; };
+		206EBB43B2E46A07541EA829 /* QRCodeKeyboardScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeKeyboardScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		378C4B9CF6B489562E8822AD /* ScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		407F5D95E944C07A2CF5116D /* QRCodeKeyboardScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeKeyboardScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F4B8C96C535733DDAEAD5C /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E6ED02A04F9A11A6EA404D9 /* QRKeyboardScannerApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QRKeyboardScannerApp.swift; sourceTree = "<group>"; };
+		73C786BA43A76CB4590B2829 /* KeyboardInfo.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = KeyboardInfo.plist; sourceTree = "<group>"; };
+		85A79E656BB7C8A73BBB97B0 /* ScannedCodeStoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScannedCodeStoreTests.swift; sourceTree = "<group>"; };
+		8ADF766809B1D0579214C9E5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = "<group>"; };
+		92BBE3075526F223CA3E803A /* KeyboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		95DC081BFE2A89E3AF3AD817 /* ScannedCodeStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScannedCodeStore.swift; sourceTree = "<group>"; };
+		97B94C564E6B8DEA5EA870E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B31A15A7A0D248F4037B9B29 /* QRCodeKeyboardScanner.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = QRCodeKeyboardScanner.entitlements; sourceTree = "<group>"; };
+		D0D0FE3C1E5B8D8F67E9EB84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE6EC9DB998316D6A2963DC /* QRCodeKeyboardKeyboardExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QRCodeKeyboardKeyboardExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032C871D05D4113C06A621C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7FD9BFBA9A2897DA6772D2 /* Foundation.framework in Frameworks */,
+				2CF08DA496DA26A57EE45699 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA42750E44483905A000285B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6004712518E8916654CB774C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB50A3FAA5D7339D80AA3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9238C9528C514D1F7FE5A82A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128F70E1A2709066245C1726 = {
+			isa = PBXGroup;
+			children = (
+				34EFE889744060D676F8F2C0 /* Products */,
+				83C9F62B98F524B8A6BFC440 /* Frameworks */,
+				D200B5F38D4A2477E5BCF283 /* QRCodeKeyboardScanner */,
+				79DBE39F81A41F72EF6D1D5D /* QRCodeKeyboardScannerTests */,
+			);
+			sourceTree = "<group>";
+		};
+		34EFE889744060D676F8F2C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				407F5D95E944C07A2CF5116D /* QRCodeKeyboardScanner.app */,
+				ECE6EC9DB998316D6A2963DC /* QRCodeKeyboardKeyboardExtension.appex */,
+				206EBB43B2E46A07541EA829 /* QRCodeKeyboardScannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		392EA4A9234476EA37993731 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0D0FE3C1E5B8D8F67E9EB84 /* Info.plist */,
+				73C786BA43A76CB4590B2829 /* KeyboardInfo.plist */,
+				B31A15A7A0D248F4037B9B29 /* QRCodeKeyboardScanner.entitlements */,
+				1EEE370EA26ED6FFB2E90B9A /* KeyboardExtension.entitlements */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79DBE39F81A41F72EF6D1D5D /* QRCodeKeyboardScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				85A79E656BB7C8A73BBB97B0 /* ScannedCodeStoreTests.swift */,
+			);
+			name = QRCodeKeyboardScannerTests;
+			path = QRCodeKeyboardScannerTests;
+			sourceTree = "<group>";
+		};
+		83C9F62B98F524B8A6BFC440 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5F70B05366E699D933F3D2 /* iOS */,
+				8ADF766809B1D0579214C9E5 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C5F70B05366E699D933F3D2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				97B94C564E6B8DEA5EA870E6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A426ED651FB9D90C90A50990 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				95DC081BFE2A89E3AF3AD817 /* ScannedCodeStore.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A937B1BC256CFE8D0317F756 /* KeyboardExtension */ = {
+			isa = PBXGroup;
+			children = (
+				92BBE3075526F223CA3E803A /* KeyboardViewController.swift */,
+			);
+			name = KeyboardExtension;
+			path = KeyboardExtension;
+			sourceTree = "<group>";
+		};
+		A9E7ADFD4CBBA47663EF5960 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEBB543BE83209F93D1605 /* Scanner */,
+				5E6ED02A04F9A11A6EA404D9 /* QRKeyboardScannerApp.swift */,
+				41F4B8C96C535733DDAEAD5C /* ContentView.swift */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		AAFEBB543BE83209F93D1605 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				378C4B9CF6B489562E8822AD /* ScannerView.swift */,
+			);
+			name = Scanner;
+			path = App/Scanner;
+			sourceTree = "<group>";
+		};
+		D200B5F38D4A2477E5BCF283 /* QRCodeKeyboardScanner */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7ADFD4CBBA47663EF5960 /* App */,
+				A426ED651FB9D90C90A50990 /* Shared */,
+				A937B1BC256CFE8D0317F756 /* KeyboardExtension */,
+				392EA4A9234476EA37993731 /* Resources */,
+			);
+			name = QRCodeKeyboardScanner;
+			path = QRCodeKeyboardScanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7473C346B79FA6B10DF56F /* QRCodeKeyboardScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C5CC9C8A7E488024EF77AC /* Build configuration list for PBXNativeTarget "QRCodeKeyboardScanner" */;
+			buildPhases = (
+				236FD8932C198ABACA2A78C2 /* Sources */,
+				032C871D05D4113C06A621C8 /* Frameworks */,
+				39BB9A43A7D67A787A46E31B /* Resources */,
+				42C2D8B0C01E47846E4F886D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00141C86B96BCB7F4DC3EE6E /* PBXTargetDependency */,
+			);
+			name = QRCodeKeyboardScanner;
+			productName = QRCodeKeyboardScanner;
+			productReference = 407F5D95E944C07A2CF5116D /* QRCodeKeyboardScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F359420A7682F37E5546D0C /* QRCodeKeyboardKeyboardExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E22BBD1E0D55E2135246C26 /* Build configuration list for PBXNativeTarget "QRCodeKeyboardKeyboardExtension" */;
+			buildPhases = (
+				1CDF80FF0563568BA88BCDFD /* Sources */,
+				DFB50A3FAA5D7339D80AA3EA /* Frameworks */,
+				FCF122A3A3FCE82C9EB7B392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCodeKeyboardKeyboardExtension;
+			productName = QRCodeKeyboardKeyboardExtension;
+			productReference = ECE6EC9DB998316D6A2963DC /* QRCodeKeyboardKeyboardExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E9D4E39ABA1695EEEB181021 /* QRCodeKeyboardScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE5FED2AD2A3AA0C8E7C679 /* Build configuration list for PBXNativeTarget "QRCodeKeyboardScannerTests" */;
+			buildPhases = (
+				A808779D5BFA49DEF7802C88 /* Sources */,
+				DA42750E44483905A000285B /* Frameworks */,
+				4341F36DE23A88C863839A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244C7FF3B636E80A2E164B4E /* PBXTargetDependency */,
+			);
+			name = QRCodeKeyboardScannerTests;
+			productName = QRCodeKeyboardScannerTests;
+			productReference = 206EBB43B2E46A07541EA829 /* QRCodeKeyboardScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEDB01BCF50CD98CA9E99D76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = D22F9F94E2C1D409D414206E /* Build configuration list for PBXProject "QRCodeKeyboardScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 128F70E1A2709066245C1726;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34EFE889744060D676F8F2C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7473C346B79FA6B10DF56F /* QRCodeKeyboardScanner */,
+				9F359420A7682F37E5546D0C /* QRCodeKeyboardKeyboardExtension */,
+				E9D4E39ABA1695EEEB181021 /* QRCodeKeyboardScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39BB9A43A7D67A787A46E31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4341F36DE23A88C863839A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF122A3A3FCE82C9EB7B392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CDF80FF0563568BA88BCDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67B6DA8B952F8ECD0A6FBB6 /* KeyboardViewController.swift in Sources */,
+				5C7793BA875FAF7F96DE4E24 /* ScannedCodeStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236FD8932C198ABACA2A78C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1952BA838B89FD39FACDDE /* QRKeyboardScannerApp.swift in Sources */,
+				FC079385BDF69DCD0E6178D8 /* ContentView.swift in Sources */,
+				9E905A587AF3045A883AA3C2 /* ScannerView.swift in Sources */,
+				47A885D9D25D721F16CD6B2F /* ScannedCodeStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A808779D5BFA49DEF7802C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29ACAB26AE183F109830A264 /* ScannedCodeStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00141C86B96BCB7F4DC3EE6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeKeyboardKeyboardExtension;
+			target = 9F359420A7682F37E5546D0C /* QRCodeKeyboardKeyboardExtension */;
+			targetProxy = 1F036C73288CF9808A90B2B6 /* PBXContainerItemProxy */;
+		};
+		244C7FF3B636E80A2E164B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeKeyboardScanner;
+			target = 6D7473C346B79FA6B10DF56F /* QRCodeKeyboardScanner */;
+			targetProxy = 09C5059BD5F7315D3FADE579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		327E94F5FF810AE30DEF53B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.predalis.QRCodeKeyboardScannerTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeKeyboardScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QRCodeKeyboardScanner";
+			};
+			name = Debug;
+		};
+		6F07635C738EE9EF23F7A0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		767512D095A6CB6BEFAE833C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = QRCodeKeyboardScanner/Resources/KeyboardExtension.entitlements;
+				INFOPLIST_FILE = QRCodeKeyboardScanner/Resources/KeyboardInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.predalis.QRCodeKeyboardScanner.Keyboard;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B4C4C8C0C48804FF3CCA908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.predalis.QRCodeKeyboardScannerTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeKeyboardScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QRCodeKeyboardScanner";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5017FDB20AA6211D253B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = QRCodeKeyboardScanner/Resources/QRCodeKeyboardScanner.entitlements;
+				INFOPLIST_FILE = QRCodeKeyboardScanner/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.predalis.QRCodeKeyboardScanner;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B60AC4BF25A9B773D9BA2A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = QRCodeKeyboardScanner/Resources/KeyboardExtension.entitlements;
+				INFOPLIST_FILE = QRCodeKeyboardScanner/Resources/KeyboardInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.predalis.QRCodeKeyboardScanner.Keyboard;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C758788CFCD333A82BECC5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = QRCodeKeyboardScanner/Resources/QRCodeKeyboardScanner.entitlements;
+				INFOPLIST_FILE = QRCodeKeyboardScanner/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.predalis.QRCodeKeyboardScanner;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDD6DB1A4E3B2A8FC7339C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C5CC9C8A7E488024EF77AC /* Build configuration list for PBXNativeTarget "QRCodeKeyboardScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C758788CFCD333A82BECC5D3 /* Release */,
+				AA5017FDB20AA6211D253B47 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E22BBD1E0D55E2135246C26 /* Build configuration list for PBXNativeTarget "QRCodeKeyboardKeyboardExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767512D095A6CB6BEFAE833C /* Release */,
+				B60AC4BF25A9B773D9BA2A66 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22F9F94E2C1D409D414206E /* Build configuration list for PBXProject "QRCodeKeyboardScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F07635C738EE9EF23F7A0A9 /* Debug */,
+				CDD6DB1A4E3B2A8FC7339C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE5FED2AD2A3AA0C8E7C679 /* Build configuration list for PBXNativeTarget "QRCodeKeyboardScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4C4C8C0C48804FF3CCA908 /* Release */,
+				327E94F5FF810AE30DEF53B0 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEDB01BCF50CD98CA9E99D76 /* Project object */;
+}
