@@ -1,0 +1,1 @@
+# qr-code-scanner-with-SAMO-Communication
